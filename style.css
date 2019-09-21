@@ -1,0 +1,52 @@
+
+
+#carousel-example-2
+{
+  margin-top: -28px;
+  
+}
+
+.carousel-inner
+{
+  height: 400px;
+
+}
+
+.carousel-caption
+{
+  height: 400px;
+}
+
+h3
+{
+  font-family: 'Pattaya', sans-serif;
+}
+
+
+.container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+#pic
+{
+    width: 450px;
+    height: 300px;
+    margin: 10px;
+    transition:all 1s;
+}
+
+img:hover
+{
+    transform: scale(1.1);
+}
+
+ul li:hover
+{
+    background-color: black;
+    color: black;
+}
